@@ -11,7 +11,6 @@
   inputs.src-base64_decoder-master.ref   = "refs/heads/master";
   inputs.src-base64_decoder-master.owner = "momeemt";
   inputs.src-base64_decoder-master.repo  = "base64_cui";
-  inputs.src-base64_decoder-master.dir   = "";
   inputs.src-base64_decoder-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
