@@ -1,32 +1,5 @@
 {
   "nodes": {
-    "base64_decoder-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-base64_decoder-master": "src-base64_decoder-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656297593,
-        "narHash": "sha256-bfXRi6s5wQWAJWDc/OFcVGlptjh7yyt31uqjmtFGh5o=",
-        "owner": "nim-nix-pkgs",
-        "repo": "base64_decoder",
-        "rev": "9c77f57327ee29c72f8287db40feb29ca51ad6eb",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "base64_decoder",
-        "type": "github"
-      }
-    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -62,26 +35,8 @@
     },
     "root": {
       "inputs": {
-        "base64_decoder-master": "base64_decoder-master",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs"
-      }
-    },
-    "src-base64_decoder-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1594992943,
-        "narHash": "sha256-hM083EujRA/XKyI8u15gPvFVw2SfzyBnt/ctYepqFUM=",
-        "owner": "momeemt",
-        "repo": "base64_cui",
-        "rev": "91e274abe016cb805df3c39d009531eb229b61f7",
-        "type": "github"
-      },
-      "original": {
-        "owner": "momeemt",
-        "ref": "refs/heads/master",
-        "repo": "base64_cui",
-        "type": "github"
       }
     }
   },
